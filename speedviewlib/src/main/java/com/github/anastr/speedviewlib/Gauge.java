@@ -37,7 +37,7 @@ public abstract class Gauge extends View {
     private TextPaint speedTextPaint = new TextPaint(Paint.ANTI_ALIAS_FLAG),
             unitTextPaint = new TextPaint(Paint.ANTI_ALIAS_FLAG);
     /** the text after speedText */
-    private String unit = "Km/h";
+    private String unit = "";
     /** automatically increase and decrease speed value around the {@link #speed} */
     private boolean withTremble = true;
 
